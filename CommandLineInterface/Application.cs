@@ -18,7 +18,6 @@ namespace CommandLineInterface
         public delegate void ParamsAction(params object[] _args);
         public Dictionary<string, ParamsAction> serviceMapping;
         
-
         public Application(string _prompt)
         {
             prompt = _prompt;
