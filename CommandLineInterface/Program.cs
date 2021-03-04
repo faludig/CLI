@@ -38,7 +38,7 @@ namespace CommandLineInterface
                 case "":
                     break;
                 default:
-                    Console.WriteLine("Invalid command");
+                    Console.WriteLine("Invalid command.");
                     break;
             }
         }
