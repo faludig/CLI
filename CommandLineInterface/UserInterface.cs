@@ -20,8 +20,6 @@ namespace CommandLineInterface
             {
                 Console.Write(app.prompt);
             } while (!app.Menu(Console.ReadLine().ToLower()));
-        }
-
-        
+        }  
     }
 }
