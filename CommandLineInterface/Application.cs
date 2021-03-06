@@ -15,7 +15,7 @@ namespace CommandLineInterface
         public string help;
 
         public static BasicServices services;
-        public delegate void ParamsAction(params object[] _args);
+        public delegate void ParamsAction(params object[] args);
         public Dictionary<string, ParamsAction> serviceMapping;
         
         public Application(string prompt)
