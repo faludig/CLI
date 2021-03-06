@@ -6,9 +6,9 @@ namespace CommandLineInterface
     {
         Application app;
 
-        public UserInterface(Application _app)
+        public UserInterface(Application app)
         {
-            app = _app;
+            this.app = app;
         }
 
         public void Run()

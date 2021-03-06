@@ -6,28 +6,28 @@ namespace CommandLineInterface
     {
         public string help;
 
-        public BasicServices(string _help)
+        public BasicServices(string help)
         {
-            help = _help;
+            this.help = help;
         }
 
-        public void ClearConsole(params object[] _args)
+        public void ClearConsole(params object[] args)
         {
             Console.Clear();
         }
 
-        public void Nothing(params object[] _args)
+        public void Nothing(params object[] args)
         {
         }
 
-        public void InvalidCommand(params object[] _args)
+        public void InvalidCommand(params object[] args)
         {
             Console.WriteLine("Invalid command.");
         }
 
-        public void PrintHelp(params object[] _args)
+        public void PrintHelp(params object[] args)
         {
-            Console.WriteLine(help);
+            Console.WriteLine(this.help);
         }
     }
 }
